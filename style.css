@@ -33,8 +33,14 @@ blockquote {
     color: #000000; /* Black text color */
     line-height: 1.5;
     background-color: #dddddd; /* Light gray background */
-    padding: 15px; /* Add padding for better readability */
+    padding: 15px 15px 0 15px; /* Add padding for better readability */
     border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+#post {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
 }
 
 #author-image {
