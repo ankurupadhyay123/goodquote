@@ -48,3 +48,17 @@ blockquote {
     border: 2px solid #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+#refresh-button {
+    background-color: #3c1642; /* Dark purple background */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#refresh-button:hover {
+    background-color: #5b2a5f; /* Darker shade of purple on hover */
+}
