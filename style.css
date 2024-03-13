@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3c1642; /* Dark purple background */
+    color: #ffffff; /* Text color for better contrast */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #dddddd; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#quote-container {
+    position: relative;
+}
+
+blockquote {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #000000; /* Black text color */
+    line-height: 1.5;
+    background-color: #dddddd; /* Light gray background */
+    padding: 15px; /* Add padding for better readability */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+#author-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
